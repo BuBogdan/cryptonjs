@@ -1,2 +1,7 @@
-# cryptonjs
-Сrypton encryption algorithm. Realization JS
+# Algorithm Crypton
+
+CRYPTON is a symmetric block encryption algorithm (block size 128 bits, key length up to 256 bits), developed by South Korean cryptologist Chae Hoon Lim from the South Korean company Future Systems, which has been working in the network software market since the late 1980s. information protection. The algorithm was developed in 1998 as a cipher - participant in the AES competition. As the author admitted, the design of the algorithm is based on the SQUARE algorithm.
+
+The Crypton algorithm does not contain the traditional Feistel network block ciphers. The basis of this cipher is the so-called SP-network (a repeating cyclic function of substitutions and permutations, oriented towards parallelized nonlinear processing [1] of the entire data block). In addition to high speed, the advantage of such algorithms is that they facilitate the study of the strength of a cipher to the methods of differential and linear cryptanalysis, which are today the main tools for breaking block ciphers.
+
+A version of the Crypton v0.5 algorithm was initially submitted to the AES competition. However, as Che Hong Lim said, he did not have enough time to develop a full version. And already in the first stage of the AES competition, during the analysis of algorithms, version Crypton v0.5 was replaced by version Crypton v1.0. The difference between the new version and the original was the change in the replacement tables and the modification of the key expansion process.
